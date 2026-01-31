@@ -1,4 +1,4 @@
-package com.kevin.tiertagger.config;
+package com.skalpha.tiertagger.config;
 
 import net.minecraft.client.gui.screens.Screen;
 import net.uku3lig.ukulib.api.UkulibAPI;

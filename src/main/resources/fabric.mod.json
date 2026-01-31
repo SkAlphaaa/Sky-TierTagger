@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "tier-tagger",
+  "id": "sky-tier-tagger",
   "version": "${version}",
-  "name": "TierTagger",
-  "description": "Display player's PvP Tiers in their nametag!",
-  "authors": ["uku", "netiyiy (original creator)"],
+  "name": "Sky TierTagger",
+  "description": "Shows players’ tiers from MC Tier lists next to their names over 30+ tier lists!",
+  "authors": ["skalpha","uku", "netiyiy (original creator)"],
   "contact": {
-    "sources": "https://github.com/mctiers-dev/TierTagger.git"
+    "sources": ""
   },
   "license": "MPL-2.0",
   "icon": "assets/tier-tagger/icon.png",
   "environment": "client",
   "entrypoints": {
     "main": [
-      "com.kevin.tiertagger.TierTagger"
+      "com.skalpha.tiertagger.TierTagger"
     ],
     "ukulib": [
-      "com.kevin.tiertagger.config.UkulibIntegration"
+      "com.skalpha.tiertagger.config.UkulibIntegration"
     ]
   },
   "mixins": [

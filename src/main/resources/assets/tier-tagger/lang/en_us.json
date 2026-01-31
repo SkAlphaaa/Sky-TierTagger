@@ -11,6 +11,7 @@
   "tiertagger.config.search": "Search Player",
   "tiertagger.config.icons": "Show Gamemode Icons",
   "tiertagger.config.playerList": "Show Tiers in Player List",
+  "tiertagger.config.page": "Page",
   "tiertagger.colors": "Tier Colors",
   "tiertagger.colors.retired": "Retired",
   "tiertagger.search": "Search",
@@ -28,4 +29,5 @@
   "tiertagger.obsolete.title": "§c§lObsolete Minecraft version detected !!!",
   "tiertagger.obsolete.desc": "You are playing on an §nunsupported Minecraft version.§r\nThis version is likely broken, and you should consider upgrading your Minecraft as soon as possible.",
   "tiertagger.keybind.gamemode": "Cycle between gamemodes"
+
 }

@@ -1,6 +1,6 @@
-package com.kevin.tiertagger.mixin;
+package com.skalpha.tiertagger.mixin;
 
-import com.kevin.tiertagger.TierTagger;
+import com.skalpha.tiertagger.TierTagger;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.renderer.entity.DisplayRenderer;
@@ -37,7 +37,7 @@ public class MixinTextDisplayRenderer {
     @Unique
     private boolean isSurrounded(String stringText, int index, int length) {
         return index == -1 || // not found
-                (index > 0 && Character.isLetterOrDigit(stringText.charAt(index - 1))) || // first char is alphanumeric
+                (index > 0 && Character.isLetterOrDigit(stringText.charAt(index - 1))) ||
                 (index + length < stringText.length() && Character.isLetterOrDigit(stringText.charAt(index + length)));
     }
 }

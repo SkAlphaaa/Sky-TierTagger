@@ -1,7 +1,7 @@
-package com.kevin.tiertagger.mixin;
+package com.skalpha.tiertagger.mixin;
 
-import com.kevin.tiertagger.TierTagger;
-import com.kevin.tiertagger.config.TierTaggerConfig;
+import com.skalpha.tiertagger.TierTagger;
+import com.skalpha.tiertagger.config.TierTaggerConfig;
 import com.llamalad7.mixinextras.injector.ModifyReturnValue;
 import net.minecraft.client.gui.components.PlayerTabOverlay;
 import net.minecraft.client.multiplayer.PlayerInfo;

@@ -1,6 +1,6 @@
-package com.kevin.tiertagger.tierlist;
+package com.skalpha.tiertagger.tierlist;
 
-import com.kevin.tiertagger.TierCache;
+import com.skalpha.tiertagger.TierCache;
 import com.mojang.authlib.GameProfile;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;

@@ -1,6 +1,6 @@
-package com.kevin.tiertagger.mixin;
+package com.skalpha.tiertagger.mixin;
 
-import com.kevin.tiertagger.TierTagger;
+import com.skalpha.tiertagger.TierTagger;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.loader.api.Version;
 import net.minecraft.ChatFormatting;
