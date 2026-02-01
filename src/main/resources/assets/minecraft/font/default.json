@@ -142,6 +142,55 @@
     },
     {
       "type": "bitmap",
+      "file": "tier-tagger:extras/diamondspear.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE813"]
+    },
+    {
+      "type": "bitmap",
+      "file": "tier-tagger:extras/earlysmp.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE814"]
+    },
+    {
+      "type": "bitmap",
+      "file": "tier-tagger:extras/enhancedsmp.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE815"]
+    },
+    {
+      "type": "bitmap",
+      "file": "tier-tagger:extras/explosiveelytra.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE816"]
+    },
+    {
+      "type": "bitmap",
+      "file": "tier-tagger:extras/harmingpot.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE817"]
+    },
+    {
+      "type": "bitmap",
+      "file": "tier-tagger:extras/holefight.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE818"]
+    },
+    {
+      "type": "bitmap",
+      "file": "tier-tagger:extras/pearlpot.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE819"]
+    },
+    {
+      "type": "bitmap",
       "file": "tier-tagger:tierlists/mctiers.png",
       "ascent": 10,
       "height": 12,

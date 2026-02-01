@@ -49,7 +49,7 @@ public class TierTagger implements ModInitializer {
 
     public static final String MOD_ID = "tiertagger";
     private static final String UPDATE_URL_FORMAT =
-            "https://api.modrinth.com/v2/project/dpkYdLu5/version?game_versions=%s";
+            "https://api.modrinth.com/v2/project/XWN8Nb1V/version?game_versions=%s";
 
     public static final Gson GSON = new GsonBuilder().create();
 
@@ -67,7 +67,7 @@ public class TierTagger implements ModInitializer {
     public void onInitialize() {
         CompletableFuture.runAsync(() -> {
             TierList.values();
-            TierCache.init(); // optional, if safe
+            TierCache.init();
         });
         ClientCommandRegistrationCallback.EVENT.register((dispatcher, registry) ->
                 dispatcher.register(

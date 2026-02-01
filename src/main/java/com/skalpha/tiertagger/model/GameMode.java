@@ -39,7 +39,7 @@ public record GameMode(String id, String title) {
 
     private Pair<Character, TextColor> iconAndColor() {
         return switch (this.id) {
-            //To Do List: More Kit Icons and Colors (idk why axepot is using subtiers icon but wtv no one cares)
+            //To Do List: More Kit Icons and Colors (removed axepot cuz why not anyways skytiers is more sexy :>)
 
             case "axe" -> Pair.of('\uE701', TextColor.fromLegacyFormat(ChatFormatting.GREEN));
             case "mace" -> Pair.of('\uE702', TextColor.fromLegacyFormat(ChatFormatting.GRAY));
@@ -61,7 +61,13 @@ public record GameMode(String id, String title) {
             case "og_vanilla" -> Pair.of('\uE810', TextColor.fromLegacyFormat(ChatFormatting.GOLD));
             case "speed" -> Pair.of('\uE811', TextColor.fromRgb(0x43a9d1));
             case "trident" -> Pair.of('\uE812', TextColor.fromRgb(0x579b8c));
-            case "axepot" -> Pair.of('\uE812', TextColor.fromRgb(0x7E6651));
+            case "pearlpot" -> Pair.of('\uE819', TextColor.fromRgb(0x6554d6));
+            case "enhanced smp" -> Pair.of('\uE815', TextColor.fromRgb(0x5e5e5f));
+            case "harming pot" -> Pair.of('\uE817', TextColor.fromRgb(0xe4f0f8));
+            case "diamond spear" -> Pair.of('\uE813', TextColor.fromRgb(0x88a8af));
+            case "holefight" -> Pair.of('\uE818', TextColor.fromRgb(0xcdd2e1));
+            case "esmp" -> Pair.of('\uE814', TextColor.fromRgb(0xe4f0f8));
+            case "explosive elytra" -> Pair.of('\uE816', TextColor.fromRgb(0x9192cd));
             default -> Pair.of('•', TextColor.fromLegacyFormat(ChatFormatting.WHITE));
         };
     }

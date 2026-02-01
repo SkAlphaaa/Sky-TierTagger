@@ -34,13 +34,11 @@
 
         public static Optional<Map<String, PlayerInfo.Ranking>> getPlayerRankings(UUID uuid) {
             return TIERS.computeIfAbsent(uuid, u -> {
-                if (uuid.version() == 4) {
                     PlayerInfo.getRankings(TierTagger.getClient(), uuid).thenAccept(info -> TIERS.put(uuid, Optional.ofNullable((Map<String, PlayerInfo.Ranking>) info)));
-                }
 
                 return Optional.empty();
             });
-        }
+    }
 
         public static CompletableFuture<PlayerInfo> searchPlayer(String query) {
             return PlayerInfo.search(TierTagger.getClient(), query).thenApply(p -> {
